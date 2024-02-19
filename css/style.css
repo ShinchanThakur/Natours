@@ -54,6 +54,9 @@ body {
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
+
+    backface-visibility: hidden;
+    /*Hack to avoid shaking of last part of animation*/
 }
 
 .heading-primary-main {
